@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ダイレクトボンディング・銀歯を白い歯に｜取手市藤代の坂寄歯科医院</title>
+  <meta name="description" content="銀歯を自然な白い歯に。取手市藤代の坂寄歯科医院では、歯をできるだけ削らず長持ちさせるダイレクトボンディング治療を行っています。10倍ルーペによる精密治療。Web予約24時間受付。">
+  <link rel="canonical" href="https://lp.fujishiro-dental.com/quality-treatment">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#FAFAF8;--bg2:#F2EFE9;--bg3:#F2EFE9;--bg4:#FFFFFF;
+      --text:#2C2C2C;--muted:#6B6560;--faint:#8B8480;
+      --gold:#8B7355;--gold-s:rgba(139,115,85,.08);--gold-b:#E0D9D0;
+      --divider:#E0D9D0;
+      --en:sans-serif;
+      --ja-s:'Noto Serif JP',serif;--ja:'Noto Serif JP',serif;
+    }
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--ja);font-weight:400;line-height:1.85;-webkit-font-smoothing:antialiased}
+
+    /* NAV */
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:18px 40px;background:rgba(255,255,255,.97);backdrop-filter:blur(14px);border-bottom:1px solid var(--divider)}
+    .nav-logo{font-family:var(--ja-s);font-size:.82rem;letter-spacing:.08em;color:var(--text);text-decoration:none;font-weight:600}
+    .nav-links{display:flex;align-items:center;gap:24px}
+    .nav-link{font-size:.78rem;letter-spacing:.04em;color:var(--muted);text-decoration:none;transition:color .2s}
+    .nav-link:hover{color:var(--gold)}
+    .nav-cta{font-size:.78rem;letter-spacing:.04em;color:#fff;background:var(--gold);padding:9px 20px;text-decoration:none;transition:background .2s;border-radius:4px}
+    .nav-cta:hover{background:#6B5840}
+
+    /* HERO */
+    .hero{min-height:100vh;display:grid;grid-template-rows:1fr auto;position:relative;overflow:hidden}
+    .hero-inner{max-width:960px;margin:0 auto;padding:160px 40px 60px;display:flex;flex-direction:column;justify-content:flex-end;width:100%}
+    .hero-bg-text{position:absolute;top:40%;left:-2%;font-size:clamp(80px,17vw,180px);font-weight:700;letter-spacing:-.02em;color:rgba(139,115,85,.05);pointer-events:none;white-space:nowrap;line-height:1}
+    .hero-tag{font-size:.76rem;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:28px;opacity:0;animation:fadeUp .8s .2s forwards;font-weight:500}
+    .hero-h1{font-family:var(--ja-s);font-weight:700;font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.3;letter-spacing:.02em;margin-bottom:28px;opacity:0;animation:fadeUp .8s .4s forwards;color:var(--text)}
+    .hero-h1 em{font-style:normal;color:var(--gold)}
+    .hero-lead{font-size:.92rem;color:var(--muted);max-width:580px;line-height:2;margin-bottom:48px;opacity:0;animation:fadeUp .8s .6s forwards}
+    .hero-btns{display:flex;gap:14px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s .8s forwards}
+    .btn-p{font-size:.82rem;letter-spacing:.04em;color:#fff;background:var(--gold);padding:13px 30px;text-decoration:none;transition:background .2s;display:inline-block;border-radius:4px;font-weight:500}
+    .btn-p:hover{background:#6B5840}
+    .btn-s{font-size:.82rem;letter-spacing:.04em;color:var(--gold);background:transparent;border:1.5px solid var(--gold);padding:13px 30px;text-decoration:none;transition:background .2s,color .2s;display:inline-block;border-radius:4px;font-weight:500}
+    .btn-s:hover{background:var(--gold-s)}
+
+    .div-line{height:1px;background:var(--divider)}
+    .dark-bg{background:var(--bg2)}
+
+    .sec{max-width:920px;margin:0 auto;padding:100px 40px}
+    .sec-tag{font-family:var(--en);font-size:.72rem;letter-spacing:.32em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+    .sec-h2{font-family:var(--ja-s);font-weight:400;font-size:clamp(1.4rem,3vw,2.1rem);letter-spacing:.04em;line-height:1.5;margin-bottom:44px}
+    .sec-body{font-size:.88rem;color:var(--muted);line-height:2.2;max-width:680px}
+    .sec-body p+p{margin-top:1.6em}
+    .sec-body strong{color:var(--text);font-weight:400}
+
+    /* CHECKLIST */
+    .check-list{list-style:none;margin-top:32px;display:flex;flex-direction:column;gap:14px}
+    .check-list li{display:flex;align-items:baseline;gap:12px;font-size:.88rem;color:var(--text);line-height:1.85}
+    .check-list li::before{content:'';width:18px;height:18px;border:1.5px solid var(--gold);border-radius:3px;flex-shrink:0;position:relative;top:2px}
+
+    /* PILLARS */
+    .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:52px}
+    @media(max-width:680px){.pillars{grid-template-columns:1fr}}
+    .pillar{background:var(--bg3);padding:40px 32px;border-top:1px solid var(--gold-b)}
+    .p-en{font-family:var(--en);font-size:.65rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+    .p-num{font-family:var(--en);font-size:2.8rem;color:rgba(139,115,85,.12);line-height:1;margin-bottom:14px;letter-spacing:-.02em}
+    .p-head{font-family:var(--ja-s);font-size:.95rem;font-weight:500;margin-bottom:10px;line-height:1.5}
+    .p-body{font-size:.78rem;color:var(--muted);line-height:1.95}
+
+    /* MERIT LIST */
+    .merit-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:44px}
+    @media(max-width:580px){.merit-grid{grid-template-columns:1fr}}
+    .merit-item{background:var(--bg3);padding:32px 26px;border-top:1px solid var(--gold-b)}
+    .merit-num{font-family:var(--en);font-size:1.6rem;color:rgba(139,115,85,.15);line-height:1;margin-bottom:10px}
+    .merit-head{font-family:var(--ja-s);font-size:.9rem;font-weight:500;margin-bottom:8px}
+    .merit-body{font-size:.78rem;color:var(--muted);line-height:1.95}
+
+    /* CAUTION */
+    .caution-box{margin-top:44px;padding:32px;background:var(--bg3);border-left:2px solid var(--gold)}
+    .caution-label{font-family:var(--en);font-size:.65rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+    .caution-body{font-size:.82rem;color:var(--muted);line-height:2}
+
+    /* FAQ */
+    .faq-list{margin-top:44px;display:flex;flex-direction:column;gap:0}
+    .faq-item{border-top:1px solid var(--divider);padding:28px 0}
+    .faq-q{font-family:var(--ja-s);font-size:.9rem;font-weight:500;color:var(--text);cursor:pointer;display:flex;align-items:baseline;gap:12px;line-height:1.7}
+    .faq-q::before{content:'Q';font-family:var(--en);font-size:.72rem;letter-spacing:.1em;color:var(--gold);flex-shrink:0}
+    .faq-a{display:none;padding:16px 0 0 28px;font-size:.82rem;color:var(--muted);line-height:2.2}
+    .faq-item.open .faq-a{display:block}
+    .faq-toggle{margin-left:auto;font-size:.72rem;color:var(--faint);flex-shrink:0;transition:transform .2s}
+    .faq-item.open .faq-toggle{transform:rotate(180deg)}
+
+    /* PRICE TABLE */
+    .price-table{width:100%;border-collapse:collapse;margin-top:44px}
+    .price-table th,.price-table td{text-align:left;padding:18px 20px;font-size:.84rem;border-bottom:1px solid var(--divider)}
+    .price-table th{font-family:var(--en);font-size:.65rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;font-weight:400;background:var(--bg3)}
+    .price-table td{color:var(--text);line-height:1.7}
+    .price-note{margin-top:16px;font-size:.76rem;color:var(--faint);line-height:2}
+
+    /* PROCESS */
+    .process-list{display:flex;flex-direction:column;gap:0;margin-top:52px;position:relative}
+    .process-list::before{content:'';position:absolute;left:28px;top:0;bottom:0;width:1px;background:var(--gold-b)}
+    .proc-item{display:grid;grid-template-columns:60px 1fr;gap:0 24px;padding:28px 0;position:relative}
+    .proc-item+.proc-item{border-top:1px solid var(--divider)}
+    .proc-circle{width:56px;height:56px;border:1px solid var(--gold-b);border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--bg);position:relative;z-index:1;flex-shrink:0}
+    .proc-num{font-family:var(--en);font-size:.85rem;color:var(--gold)}
+    .proc-c{padding-top:8px}
+    .proc-head{font-family:var(--ja-s);font-size:.92rem;font-weight:500;margin-bottom:6px}
+    .proc-body{font-size:.78rem;color:var(--muted);line-height:1.95}
+    .proc-tag{display:inline-block;margin-top:8px;font-size:.62rem;letter-spacing:.1em;color:var(--gold);border:1px solid var(--gold-b);padding:2px 8px}
+
+    /* DIRECTOR */
+    .doctor-note{max-width:920px;margin:0 auto;padding:80px 40px}
+    .dn-inner{display:grid;grid-template-columns:1fr 3fr;gap:60px;align-items:start}
+    @media(max-width:680px){.dn-inner{grid-template-columns:1fr}}
+    .dn-label{font-family:var(--en);font-size:.65rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:16px}
+    .dn-name{font-family:var(--ja-s);font-size:.82rem;font-weight:500;margin-bottom:6px}
+    .dn-role{font-size:.72rem;color:var(--faint);letter-spacing:.08em}
+    .director-photo-placeholder{width:100%;aspect-ratio:3/4;background:var(--bg3);border:1px solid var(--gold-b);display:flex;align-items:center;justify-content:center;font-size:.78rem;color:var(--faint);margin-top:16px}
+    .dn-quote{font-family:var(--ja-s);font-size:clamp(.9rem,2vw,1.05rem);font-weight:300;line-height:2.4;color:var(--text);border-left:1px solid var(--gold);padding-left:32px}
+
+    /* ACCESS */
+    .access-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:44px;align-items:start}
+    @media(max-width:680px){.access-grid{grid-template-columns:1fr}}
+    .access-info{font-size:.84rem;color:var(--muted);line-height:2.2}
+    .access-info dt{font-weight:500;color:var(--text);margin-top:16px}
+    .access-info dt:first-child{margin-top:0}
+    .access-info dd{margin-left:0}
+    .access-map{width:100%;aspect-ratio:4/3;border:0}
+
+    /* CTA */
+    .cta-sec{text-align:center;padding:130px 40px;position:relative;overflow:hidden}
+    .cta-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--en);font-size:clamp(60px,16vw,160px);font-weight:300;color:rgba(139,115,85,.05);white-space:nowrap;pointer-events:none;letter-spacing:.08em}
+    .cta-label{font-family:var(--en);font-size:.73rem;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;margin-bottom:22px}
+    .cta-h{font-family:var(--ja-s);font-size:clamp(1.35rem,3vw,2.1rem);font-weight:300;line-height:1.7;margin-bottom:16px}
+    .cta-sub{font-size:.84rem;color:var(--muted);margin-bottom:48px;line-height:2.2}
+    .cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .cta-note{margin-top:26px;font-size:.7rem;color:var(--faint);line-height:2}
+
+    /* FOOTER */
+    footer{padding:44px 40px;background:#2C2C2C;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+    .f-logo{font-family:var(--ja-s);font-size:.78rem;letter-spacing:.15em;color:#FFFFFF}
+    .f-note{font-size:.68rem;color:rgba(255,255,255,.6)}
+
+    /* FIXED MOBILE CTA */
+    .fixed-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:300;padding:10px 12px;background:rgba(255,255,255,.97);backdrop-filter:blur(14px);border-top:1px solid var(--divider)}
+    .fixed-cta-inner{display:flex;gap:8px;max-width:480px;margin:0 auto}
+    .fixed-cta a{flex:1;text-align:center;font-size:.78rem;padding:12px 8px;border-radius:4px;text-decoration:none;font-weight:500;letter-spacing:.04em}
+    .fixed-cta .fc-web{color:#fff;background:var(--gold)}
+    .fixed-cta .fc-tel{color:var(--gold);border:1.5px solid var(--gold);background:transparent}
+    @media(max-width:768px){.fixed-cta{display:block}body{padding-bottom:72px}}
+
+    /* RISK */
+    .risk-list{margin-top:28px;display:flex;flex-direction:column;gap:10px}
+    .risk-item{display:flex;gap:14px;font-size:.78rem;color:var(--muted);line-height:1.85}
+    .risk-dot{width:3px;height:3px;border-radius:50%;background:var(--gold);margin-top:10px;flex-shrink:0}
+
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+    .reveal.on{opacity:1;transform:translateY(0)}
+
+    @media(max-width:640px){
+      nav{padding:14px 18px}
+      .nav-links .nav-link{display:none}
+      .sec,.doctor-note{padding:72px 20px}
+      .cta-sec,footer{padding-left:20px;padding-right:20px}
+      .dn-quote{padding-left:18px}
+      .caution-box{padding:26px 20px}
+    }
+  </style>
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ダイレクトボンディング・銀歯を白い歯に｜取手市藤代の坂寄歯科医院">
+  <meta property="og:description" content="銀歯を自然な白い歯に。取手市藤代の坂寄歯科医院では、歯をできるだけ削らず長持ちさせるダイレクトボンディング治療を行っています。10倍ルーペによる精密治療。Web予約24時間受付。">
+  <meta property="og:url" content="https://lp.fujishiro-dental.com/quality-treatment">
+  <meta property="og:site_name" content="坂寄歯科医院">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Dentist","LocalBusiness"],
+        "@id": "https://www.fujishiro-dental.com/#organization",
+        "name": "坂寄歯科医院",
+        "alternateName": "Sakayori Dental Clinic",
+        "url": "https://www.fujishiro-dental.com/",
+        "telephone": "0297-82-4160",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "藤代503",
+          "addressLocality": "取手市藤代",
+          "addressRegion": "茨城県",
+          "postalCode": "300-1512",
+          "addressCountry": "JP"
+        },
+        "openingHoursSpecification": [
+          {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Thursday","Friday","Saturday"]}
+        ],
+        "medicalSpecialty": ["General","Pediatric","Orthodontic","OralSurgery"],
+        "sameAs": ["https://lp.fujishiro-dental.com/"]
+      },
+      {
+        "@type": "WebPage",
+        "name": "ダイレクトボンディング・銀歯を白い歯に｜坂寄歯科医院",
+        "url": "https://lp.fujishiro-dental.com/quality-treatment",
+        "description": "銀歯を自然な白い歯に。取手市藤代の坂寄歯科医院では、歯をできるだけ削らず長持ちさせるダイレクトボンディング治療を行っています。",
+        "isPartOf": {"@id": "https://www.fujishiro-dental.com/#organization"},
+        "inLanguage": "ja"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "ダイレクトボンディングと保険の白い詰め物は何が違いますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "保険のコンポジットレジン修復と材料の基本は同じですが、ダイレクトボンディングでは時間をかけた接着操作・色の調整・精密な研磨を行います。使用する材料や工程が異なるため、自由診療として行っています。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "治療は1回で終わりますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ダイレクトボンディングは基本的に1回の治療で完了します。ただし、初診時は検査・カウンセリングのみとなります。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "痛みはありますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "必要に応じて麻酔を使用します。治療中の痛みについては事前にご相談ください。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "どのくらい持ちますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "個人差がありますが、適切なメンテナンスを継続することで長期間の使用が期待できます。噛み合わせや生活習慣によって異なります。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "銀歯は全て白くできますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "銀歯の範囲・大きさ・位置によって異なります。すべてのケースに対応できるわけではないため、まず診査・診断が必要です。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"ホーム","item":"https://www.fujishiro-dental.com"},
+      {"@type":"ListItem","position":2,"name":"修復治療・ダイレクトボンディング","item":"https://lp.fujishiro-dental.com/quality-treatment"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<nav>
+  <a href="https://www.fujishiro-dental.com/" class="nav-logo">坂寄歯科医院</a>
+  <div class="nav-links">
+    <a href="https://dentai.net/booking/sakayori-shika" class="nav-link" target="_blank" rel="noopener">Web予約</a>
+    <a href="tel:0297-82-4160" class="nav-link">お電話</a>
+    <a href="https://dentai.net/booking/sakayori-shika" class="nav-cta" target="_blank" rel="noopener">Web予約</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg-text" aria-hidden="true">Restoration</div>
+  <div class="hero-inner">
+    <p class="hero-tag">Restorative Dentistry</p>
+    <h1 class="hero-h1">
+      あなたの歯を、<br>
+      できるだけ<em>削らずに</em>治す
+    </h1>
+    <p class="hero-lead">
+      取手市藤代の坂寄歯科医院では、歯の寿命を延ばすことを最優先に、精密な修復治療を行っています。
+    </p>
+    <div class="hero-btns">
+      <a href="https://dentai.net/booking/sakayori-shika" class="btn-p" target="_blank" rel="noopener">Web予約はこちら</a>
+      <a href="tel:0297-82-4160" class="btn-s">0297-82-4160に電話する</a>
+    </div>
+  </div>
+</section>
+
+<div class="div-line"></div>
+
+<!-- CONCERNS -->
+<div class="sec">
+  <p class="sec-tag reveal">Concerns</p>
+  <h2 class="sec-h2 reveal">こんなお悩みありませんか？</h2>
+  <ul class="check-list reveal">
+    <li>銀歯が目立って、口を開けるのが気になる</li>
+    <li>以前の治療が雑で、やり直したい</li>
+    <li>できるだけ歯を削らない治療を受けたい</li>
+    <li>歯を長持ちさせる治療がしたい</li>
+    <li>金属アレルギーが心配</li>
+    <li>治療について丁寧に説明してほしい</li>
+  </ul>
+</div>
+
+<div class="div-line"></div>
+
+<!-- PHILOSOPHY: 3 PILLARS -->
+<div class="dark-bg">
+  <div class="sec" id="philosophy">
+    <p class="sec-tag reveal">Our Philosophy</p>
+    <h2 class="sec-h2 reveal">坂寄歯科の治療哲学</h2>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <div class="p-en">Minimal</div>
+        <div class="p-num">01</div>
+        <div class="p-head">削らない</div>
+        <div class="p-body">MI治療（ミニマルインターベンション）の考え方。虫歯の部分だけを精密に除去し、健康な歯質を最大限残します。</div>
+      </div>
+      <div class="pillar reveal">
+        <div class="p-en">Preserve</div>
+        <div class="p-num">02</div>
+        <div class="p-head">残す</div>
+        <div class="p-body">10倍の拡大鏡（ルーペ）を使用し、肉眼では見えない細部まで確認しながら治療を行います。</div>
+      </div>
+      <div class="pillar reveal">
+        <div class="p-en">Durable</div>
+        <div class="p-num">03</div>
+        <div class="p-head">長持ちさせる</div>
+        <div class="p-body">ラバーダム防湿を使用した精密な接着操作で、治療の質と耐久性を高めます。</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- DIRECT BONDING -->
+<div class="sec" id="direct-bonding">
+  <p class="sec-tag reveal">Direct Bonding</p>
+  <h2 class="sec-h2 reveal">ダイレクトボンディングとは</h2>
+  <div class="sec-body reveal">
+    <p>ダイレクトボンディングとは、歯科用コンポジットレジンを直接歯に盛り付けて修復する<strong>自費治療</strong>です。</p>
+    <p>保険のCR修復と材料の基本は共通していますが、ダイレクトボンディングでは<strong>時間をかけた丁寧な接着操作・色の調整・精密な研磨</strong>を行うことで、より自然で長持ちする仕上がりを目指します。</p>
+  </div>
+  <div class="merit-grid">
+    <div class="merit-item reveal">
+      <div class="merit-num">01</div>
+      <div class="merit-head">歯を削る量が最小限</div>
+      <div class="merit-body">虫歯の部分だけを精密に除去し、健康な歯質を可能な限り残します。</div>
+    </div>
+    <div class="merit-item reveal">
+      <div class="merit-num">02</div>
+      <div class="merit-head">基本的に1回で完了</div>
+      <div class="merit-body">型取り不要で、その日のうちに修復が完了します。通院回数を抑えられます。</div>
+    </div>
+    <div class="merit-item reveal">
+      <div class="merit-num">03</div>
+      <div class="merit-head">自然な白さ・透明感</div>
+      <div class="merit-body">複数の色のレジンを重ねることで、天然歯に近い色調を再現します。</div>
+    </div>
+    <div class="merit-item reveal">
+      <div class="merit-num">04</div>
+      <div class="merit-head">メタルフリー</div>
+      <div class="merit-body">金属を一切使用しないため、金属アレルギーの方も安心して治療を受けられます。</div>
+    </div>
+  </div>
+  <div class="caution-box reveal">
+    <div class="caution-label">Important Notice</div>
+    <div class="caution-body">すべてのケースに適用できるわけではありません。初診時に検査・診断を行い、適応可能かどうかをご説明します。</div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- FAQ -->
+<div class="dark-bg">
+  <div class="sec" id="faq">
+    <p class="sec-tag reveal">FAQ</p>
+    <h2 class="sec-h2 reveal">よくある質問</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          ダイレクトボンディングと保険の白い詰め物は何が違いますか？
+          <span class="faq-toggle">▼</span>
+        </div>
+        <div class="faq-a">保険のコンポジットレジン修復と材料の基本は同じですが、ダイレクトボンディングでは時間をかけた接着操作・色の調整・精密な研磨を行います。使用する材料や工程が異なるため、自由診療として行っています。</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          治療は1回で終わりますか？
+          <span class="faq-toggle">▼</span>
+        </div>
+        <div class="faq-a">ダイレクトボンディングは基本的に1回の治療で完了します。ただし、初診時は検査・カウンセリングのみとなります。</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          痛みはありますか？
+          <span class="faq-toggle">▼</span>
+        </div>
+        <div class="faq-a">必要に応じて麻酔を使用します。治療中の痛みについては事前にご相談ください。</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          どのくらい持ちますか？
+          <span class="faq-toggle">▼</span>
+        </div>
+        <div class="faq-a">個人差がありますが、適切なメンテナンスを継続することで長期間の使用が期待できます。噛み合わせや生活習慣によって異なります。</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          銀歯は全て白くできますか？
+          <span class="faq-toggle">▼</span>
+        </div>
+        <div class="faq-a">銀歯の範囲・大きさ・位置によって異なります。すべてのケースに対応できるわけではないため、まず診査・診断が必要です。</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- PRICE -->
+<div class="sec" id="price">
+  <p class="sec-tag reveal">Price</p>
+  <h2 class="sec-h2 reveal">料金</h2>
+  <!-- 【要確認】料金は三木先生に確認してから最終調整してください -->
+  <table class="price-table reveal">
+    <thead>
+      <tr><th>Treatment</th><th>Fee</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>ダイレクトボンディング</td><td>1本 50,000円（税込）</td></tr>
+      <tr><td>保険のコンポジットレジン修復</td><td>保険適用（窓口負担あり）</td></tr>
+    </tbody>
+  </table>
+  <div class="price-note reveal">
+    ※費用は歯の状態により異なります。初診時にご説明します。<br>
+    ※自由診療です。
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- FLOW -->
+<div class="dark-bg">
+  <div class="sec" id="flow">
+    <p class="sec-tag reveal">Treatment Flow</p>
+    <h2 class="sec-h2 reveal">治療の流れ</h2>
+    <div class="process-list">
+      <div class="proc-item reveal">
+        <div class="proc-circle"><span class="proc-num">01</span></div>
+        <div class="proc-c">
+          <div class="proc-head">初診：検査・診断・カウンセリング</div>
+          <div class="proc-body">口腔内診査・X線撮影・写真撮影を行い、現状を把握します。初診時に治療は行いません。</div>
+          <span class="proc-tag">初診は検査のみ</span>
+        </div>
+      </div>
+      <div class="proc-item reveal">
+        <div class="proc-circle"><span class="proc-num">02</span></div>
+        <div class="proc-c">
+          <div class="proc-head">治療計画のご説明</div>
+          <div class="proc-body">検査結果をもとに、治療方法・費用・リスクを含めて丁寧にご説明します。ご納得いただいてから治療を開始します。</div>
+        </div>
+      </div>
+      <div class="proc-item reveal">
+        <div class="proc-circle"><span class="proc-num">03</span></div>
+        <div class="proc-c">
+          <div class="proc-head">ダイレクトボンディング施術</div>
+          <div class="proc-body">ラバーダム防湿下で、丁寧な接着操作・レジンの盛り付けを行います。1〜2時間程度です。</div>
+          <span class="proc-tag">1〜2時間程度</span>
+        </div>
+      </div>
+      <div class="proc-item reveal">
+        <div class="proc-circle"><span class="proc-num">04</span></div>
+        <div class="proc-c">
+          <div class="proc-head">研磨・最終チェック</div>
+          <div class="proc-body">精密な研磨を行い、噛み合わせ・色調・形態を確認します。</div>
+        </div>
+      </div>
+      <div class="proc-item reveal">
+        <div class="proc-circle"><span class="proc-num">05</span></div>
+        <div class="proc-c">
+          <div class="proc-head">定期メンテナンスへ移行</div>
+          <div class="proc-body">治療後は定期的なメンテナンスで経過を確認し、長期的な維持を目指します。</div>
+          <span class="proc-tag">定期検診</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- DIRECTOR -->
+<div class="doctor-note" id="director">
+  <div class="dn-inner">
+    <div class="reveal">
+      <div class="dn-label">Director</div>
+      <div class="dn-name">三木 雄斗</div>
+      <div class="dn-role">院長・歯科医師</div>
+      <div class="director-photo-placeholder">院長写真</div>
+    </div>
+    <blockquote class="dn-quote reveal">
+      ダイレクトボンディングをはじめとした保存科全般が得意な一般歯科医師です。<br><br>
+      歯を長持ちさせることを最優先に、接着修復・予防歯科に注力しています。<br><br>
+      治療の選択肢やリスクについて丁寧にご説明し、患者さんと一緒に治療方針を決めていくことを大切にしています。
+    </blockquote>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- ACCESS -->
+<div class="dark-bg">
+  <div class="sec" id="access">
+    <p class="sec-tag reveal">Access</p>
+    <h2 class="sec-h2 reveal">医院情報・アクセス</h2>
+    <div class="access-grid reveal">
+      <dl class="access-info">
+        <dt>医院名</dt>
+        <dd>坂寄歯科医院</dd>
+        <dt>所在地</dt>
+        <dd>〒300-1512 茨城県取手市藤代503</dd>
+        <dt>電話番号</dt>
+        <dd><a href="tel:0297-82-4160" style="color:var(--gold);text-decoration:none">0297-82-4160</a></dd>
+        <dt>診療時間</dt>
+        <dd>月・火・木・金・土 診療<br>水・日・祝 休診（休診日は月によって異なります）</dd>
+        <dt>アクセス</dt>
+        <dd>JR藤代駅北口から徒歩10分<br>駐車場12台完備</dd>
+      </dl>
+      <iframe class="access-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.5!2d140.1051!3d35.9168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228e1e1e1e1e1e%3A0x1e1e1e1e1e1e1e1e!2z5Z2C5a-E5q2v56eR5Yy76Zmi!5e0!3m2!1sja!2sjp!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- RISK -->
+<div class="sec" style="padding-top:60px;padding-bottom:60px">
+  <p class="sec-tag reveal" style="font-size:.64rem;color:var(--faint)">Important Notes</p>
+  <h3 class="sec-h2 reveal" style="font-size:.9rem;color:var(--muted)">リスク・注意事項</h3>
+  <div class="risk-list reveal">
+    <div class="risk-item"><span class="risk-dot"></span>本ページは一般情報であり、すべての方に同一の結果を保証するものではありません。個別の診断・治療方針は診察後に決定します。</div>
+    <div class="risk-item"><span class="risk-dot"></span>ダイレクトボンディングは自由診療です。費用は歯の状態により異なります。</div>
+    <div class="risk-item"><span class="risk-dot"></span>すべてのケースに適用できるわけではありません。歯の状態によっては他の治療法をお勧めする場合があります。</div>
+    <div class="risk-item"><span class="risk-dot"></span>噛み合わせや生活習慣により、修復物が欠けたり外れたりする可能性があります。定期的なメンテナンスが重要です。</div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-sec" id="reserve">
+  <div class="cta-bg" aria-hidden="true">Restoration</div>
+  <p class="cta-label reveal">Book an Appointment</p>
+  <h2 class="cta-h reveal">まずは検査・カウンセリングから</h2>
+  <p class="cta-sub reveal">
+    初診では治療に入りません。<br>
+    検査・診断を行い、治療の選択肢を丁寧にご説明します。<br>
+    保険証とお薬手帳をお持ちください。
+  </p>
+  <div class="cta-btns reveal">
+    <a href="https://dentai.net/booking/sakayori-shika" class="btn-p" target="_blank" rel="noopener">Web予約はこちら</a>
+    <a href="tel:0297-82-4160" class="btn-s">0297-82-4160に電話する</a>
+  </div>
+  <p class="cta-note reveal">
+    坂寄歯科医院｜〒300-1512 茨城県取手市藤代503（JR藤代駅北口 徒歩約10分）<br>
+    月・火・木・金・土 診療　／　水・日・祝 休診（休診日は月によって異なります）
+  </p>
+</section>
+
+<footer>
+  <span class="f-logo">坂寄歯科医院｜茨城県取手市藤代503</span>
+  <span class="f-note">&copy; 2025 Sakayori Dental Clinic. All rights reserved.</span>
+</footer>
+
+<!-- FIXED MOBILE CTA -->
+<div class="fixed-cta">
+  <div class="fixed-cta-inner">
+    <a href="https://dentai.net/booking/sakayori-shika" class="fc-web" target="_blank" rel="noopener">Web予約</a>
+    <a href="tel:0297-82-4160" class="fc-tel">電話する</a>
+  </div>
+</div>
+
+<script>
+  // Reveal on scroll
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('on'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
